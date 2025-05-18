@@ -1,3 +1,24 @@
+export const metadata = {
+  title: 'HqO Visitor Management | Book, Track & Manage Office Visits',
+  description: 'Try HqO’s visitor management solution free. Streamline guest check-ins, print badges, and view visit history — all in one app.',
+  openGraph: {
+    title: 'HqO Visitor Management',
+    description: 'Book, track, and manage office visits with HqO.',
+    url: 'https://visitor.hqo.com',
+    images: [
+      {
+        url: '/images/social-preview.png',
+        width: 1200,
+        height: 630,
+        alt: 'HqO Visitor Management',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+};
+
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
