@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'HqO Visitor Management | Book, Track & Manage Office Visits',
-  description: 'Try HqO’s visitor management solution free. Streamline guest check-ins, print badges, and view visit history — all in one app.',
+  description: 'Try HqO's visitor management solution free. Streamline guest check-ins, print badges, and view visit history — all in one app.',
   openGraph: {
     title: 'HqO Visitor Management',
     description: 'Book, track, and manage office visits with HqO.',
@@ -59,7 +59,7 @@ export default function VisitorManagementLanding() {
             >
               Contact Sales
             </Link>
-            <Button className="bg-[#00B2E3] hover:bg-[#0099cc] text-white" asChild>
+            <Button className="bg-[#e2000aff] hover:bg-[#c20009] text-white" asChild>
               <Link href="#trial">Start Free Trial</Link>
             </Button>
           </div>
@@ -86,12 +86,12 @@ export default function VisitorManagementLanding() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button className="bg-[#00B2E3] hover:bg-[#0099cc] text-white" size="lg" asChild>
+                  <Button className="bg-[#e2000aff] hover:bg-[#c20009] text-white" size="lg" asChild>
                     <Link href="#trial">Start Free Trial</Link>
                   </Button>
                   <Button
                     variant="outline"
-                    className="border-[#00B2E3] text-[#00B2E3] hover:bg-[#00B2E3]/10"
+                    className="border-[#e2000aff] text-[#e2000aff] hover:bg-[#e2000aff]/10"
                     size="lg"
                     asChild
                   >
@@ -345,7 +345,7 @@ export default function VisitorManagementLanding() {
                   ))}
                 </ul>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-                  <Button className="bg-[#00B2E3] hover:bg-[#0099cc] text-white" size="lg" asChild>
+                  <Button className="bg-[#e2000aff] hover:bg-[#c20009] text-white" size="lg" asChild>
                     <Link href="#trial">Start Free Trial</Link>
                   </Button>
                 </div>
@@ -402,7 +402,7 @@ export default function VisitorManagementLanding() {
         </section>
 
         {/* CTA Section */}
-        <section id="trial" className="w-full py-12 md:py-24 lg:py-32 bg-[#00B2E3] text-white">
+        <section id="trial" className="w-full py-12 md:py-24 lg:py-32 bg-[#e2000aff] text-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
