@@ -1,6 +1,7 @@
 export const metadata = {
   title: 'HqO Visitor Management | Book, Track & Manage Office Visits',
   description: "Try HqO's visitor management solution free. Streamline guest check-ins, print badges, and view visit history — all in one app.",
+  metadataBase: new URL('https://visitor.hqo.com'),
   openGraph: {
     title: 'HqO Visitor Management',
     description: 'Book, track, and manage office visits with HqO.',
