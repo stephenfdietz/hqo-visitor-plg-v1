@@ -1,25 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import localFont from 'next/font/local'
 
 const inter = Inter({ subsets: ['latin'] })
-
-const sourceSans3 = localFont({
-  src: [
-    {
-      path: '../public/fonts/SourceSans3-Regular.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../public/fonts/SourceSans3-Bold.woff2',
-      weight: '700',
-      style: 'normal',
-    },
-  ],
-  variable: '--font-source-sans-3',
-})
 
 export const metadata: Metadata = {
   title: 'HqO Visitor Management',
@@ -33,7 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${sourceSans3.variable}`}>{children}</body>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className={`${inter.className} font-['Source_Sans_3']`}>{children}</body>
     </html>
   )
 }
