@@ -39,27 +39,27 @@ export default function VisitorManagementLanding() {
             />
           </div>
           <nav className="hidden md:flex gap-6">
-            <Link href="#features" className="text-sm font-medium transition-colors hover:text-[#00B2E3]">
+            <Link href="#features" className="text-sm font-medium transition-colors hover:text-[#ff4539ff]">
               Features
             </Link>
-            <Link href="#capabilities" className="text-sm font-medium transition-colors hover:text-[#00B2E3]">
+            <Link href="#capabilities" className="text-sm font-medium transition-colors hover:text-[#ff4539ff]">
               Capabilities
             </Link>
-            <Link href="#benefits" className="text-sm font-medium transition-colors hover:text-[#00B2E3]">
+            <Link href="#benefits" className="text-sm font-medium transition-colors hover:text-[#ff4539ff]">
               Benefits
             </Link>
-            <Link href="#testimonials" className="text-sm font-medium transition-colors hover:text-[#00B2E3]">
+            <Link href="#testimonials" className="text-sm font-medium transition-colors hover:text-[#ff4539ff]">
               Testimonials
             </Link>
           </nav>
           <div className="flex items-center gap-4">
             <Link
               href="#contact"
-              className="hidden md:inline-flex text-sm font-medium transition-colors hover:text-[#00B2E3]"
+              className="hidden md:inline-flex text-sm font-medium transition-colors hover:text-[#ff4539ff]"
             >
               Contact Sales
             </Link>
-            <Button className="bg-[#e2000aff] hover:bg-[#c20009] text-white" asChild>
+            <Button className="bg-[#ff4539ff] hover:bg-[#ff4539ff]/90 text-white" asChild>
               <Link href="#trial">Start Free Trial</Link>
             </Button>
           </div>
@@ -86,12 +86,12 @@ export default function VisitorManagementLanding() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button className="bg-[#e2000aff] hover:bg-[#c20009] text-white" size="lg" asChild>
+                  <Button className="bg-[#ff4539ff] hover:bg-[#ff4539ff]/90 text-white" size="lg" asChild>
                     <Link href="#trial">Start Free Trial</Link>
                   </Button>
                   <Button
                     variant="outline"
-                    className="border-[#e2000aff] text-[#e2000aff] hover:bg-[#e2000aff]/10"
+                    className="border-[#ff4539ff] text-[#ff4539ff] hover:bg-[#ff4539ff]/10"
                     size="lg"
                     asChild
                   >
@@ -118,7 +118,7 @@ export default function VisitorManagementLanding() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-[#00B2E3]/10 px-3 py-1 text-sm text-[#00B2E3]">Features</div>
+                <div className="inline-block rounded-lg bg-[#ff4539ff]/10 px-3 py-1 text-sm text-[#ff4539ff]">Features</div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
                   Features like QR code passes, Day Pass, and automated notifications make the process efficient,
                   secure, and seamless for guests and property teams all in one place.
@@ -131,7 +131,7 @@ export default function VisitorManagementLanding() {
                   key={index}
                   className="flex flex-col items-center space-y-2 rounded-lg border border-gray-800 p-6 shadow-sm"
                 >
-                  <div className="p-2 bg-[#00B2E3]/10 rounded-full text-[#00B2E3]">{feature.icon}</div>
+                  <div className="p-2 bg-[#ff4539ff]/10 rounded-full text-[#ff4539ff]">{feature.icon}</div>
                   <h3 className="text-xl font-bold">{feature.title}</h3>
                   <p className="text-center text-gray-400">{feature.description}</p>
                 </div>
@@ -145,7 +145,7 @@ export default function VisitorManagementLanding() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-[#00B2E3]/10 px-3 py-1 text-sm text-[#00B2E3]">
+                <div className="inline-block rounded-lg bg-[#ff4539ff]/10 px-3 py-1 text-sm text-[#ff4539ff]">
                   Capabilities
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Available Capabilities</h2>
@@ -155,7 +155,7 @@ export default function VisitorManagementLanding() {
               <div className="space-y-6">
                 {capabilities.slice(0, 6).map((capability, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="h-2 w-2 mt-2 rounded-full bg-[#00B2E3]"></div>
+                    <div className="h-2 w-2 mt-2 rounded-full bg-[#ff4539ff]"></div>
                     <div>
                       <h3 className="text-xl font-bold text-white">{capability.title}</h3>
                       <p className="text-gray-400">{capability.description}</p>
@@ -166,7 +166,7 @@ export default function VisitorManagementLanding() {
               <div className="space-y-6">
                 {capabilities.slice(6, 12).map((capability, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="h-2 w-2 mt-2 rounded-full bg-[#00B2E3]"></div>
+                    <div className="h-2 w-2 mt-2 rounded-full bg-[#ff4539ff]"></div>
                     <div>
                       <h3 className="text-xl font-bold text-white">{capability.title}</h3>
                       <p className="text-gray-400">{capability.description}</p>
@@ -183,7 +183,7 @@ export default function VisitorManagementLanding() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-[#00B2E3]/10 px-3 py-1 text-sm text-[#00B2E3]">Security</div>
+                <div className="inline-block rounded-lg bg-[#ff4539ff]/10 px-3 py-1 text-sm text-[#ff4539ff]">Security</div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Security & Access Control</h2>
               </div>
             </div>
@@ -191,7 +191,7 @@ export default function VisitorManagementLanding() {
               <div className="space-y-6">
                 {securityCapabilities.slice(0, 3).map((capability, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="h-2 w-2 mt-2 rounded-full bg-[#00B2E3]"></div>
+                    <div className="h-2 w-2 mt-2 rounded-full bg-[#ff4539ff]"></div>
                     <div>
                       <h3 className="text-xl font-bold text-white">{capability.title}</h3>
                       <p className="text-gray-400">{capability.description}</p>
@@ -202,7 +202,7 @@ export default function VisitorManagementLanding() {
               <div className="space-y-6">
                 {securityCapabilities.slice(3, 6).map((capability, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="h-2 w-2 mt-2 rounded-full bg-[#00B2E3]"></div>
+                    <div className="h-2 w-2 mt-2 rounded-full bg-[#ff4539ff]"></div>
                     <div>
                       <h3 className="text-xl font-bold text-white">{capability.title}</h3>
                       <p className="text-gray-400">{capability.description}</p>
@@ -223,7 +223,7 @@ export default function VisitorManagementLanding() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-[#00B2E3]/10 px-3 py-1 text-sm text-[#00B2E3]">
+                  <div className="inline-block rounded-lg bg-[#ff4539ff]/10 px-3 py-1 text-sm text-[#ff4539ff]">
                     Mobile Experience
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
@@ -234,19 +234,19 @@ export default function VisitorManagementLanding() {
                     <p className="text-gray-300">Input key details:</p>
                     <ul className="space-y-2">
                       <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-[#00B2E3]"></div>
+                        <div className="h-2 w-2 rounded-full bg-[#ff4539ff]"></div>
                         <span>Email or Phone</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-[#00B2E3]"></div>
+                        <div className="h-2 w-2 rounded-full bg-[#ff4539ff]"></div>
                         <span>First & last name</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-[#00B2E3]"></div>
+                        <div className="h-2 w-2 rounded-full bg-[#ff4539ff]"></div>
                         <span>Date and time</span>
                       </li>
                       <li className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-[#00B2E3]"></div>
+                        <div className="h-2 w-2 rounded-full bg-[#ff4539ff]"></div>
                         <span>Notes to the visitor</span>
                       </li>
                     </ul>
@@ -281,7 +281,7 @@ export default function VisitorManagementLanding() {
               </div>
               <div className="flex flex-col justify-center space-y-4 order-1 lg:order-2">
                 <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-[#00B2E3]/10 px-3 py-1 text-sm text-[#00B2E3]">
+                  <div className="inline-block rounded-lg bg-[#ff4539ff]/10 px-3 py-1 text-sm text-[#ff4539ff]">
                     Activity Tracking
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
@@ -293,23 +293,23 @@ export default function VisitorManagementLanding() {
                   </p>
                   <ul className="space-y-2 mt-4">
                     <li className="flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-[#00B2E3]" />
+                      <CheckCircle className="h-5 w-5 text-[#ff4539ff]" />
                       <span>Event registrations and invitations</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-[#00B2E3]" />
+                      <CheckCircle className="h-5 w-5 text-[#ff4539ff]" />
                       <span>Check-in and check-out times</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-[#00B2E3]" />
+                      <CheckCircle className="h-5 w-5 text-[#ff4539ff]" />
                       <span>Access granted events</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-[#00B2E3]" />
+                      <CheckCircle className="h-5 w-5 text-[#ff4539ff]" />
                       <span>Admin notes and security events</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-[#00B2E3]" />
+                      <CheckCircle className="h-5 w-5 text-[#ff4539ff]" />
                       <span>Visitor survey completions</span>
                     </li>
                   </ul>
@@ -324,7 +324,7 @@ export default function VisitorManagementLanding() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-[#00B2E3]/10 px-3 py-1 text-sm text-[#00B2E3]">Benefits</div>
+                <div className="inline-block rounded-lg bg-[#ff4539ff]/10 px-3 py-1 text-sm text-[#ff4539ff]">Benefits</div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Why Choose HqO Visitor Management?</h2>
                 <p className="max-w-[700px] text-gray-400 md:text-xl">
                   Our solution delivers tangible benefits for property managers, tenants, and visitors alike.
@@ -336,7 +336,7 @@ export default function VisitorManagementLanding() {
                 <ul className="grid gap-3">
                   {benefits.map((benefit, index) => (
                     <li key={index} className="flex items-start gap-2">
-                      <CheckCircle className="h-6 w-6 text-[#00B2E3] flex-shrink-0 mt-1" />
+                      <CheckCircle className="h-6 w-6 text-[#ff4539ff] flex-shrink-0 mt-1" />
                       <div>
                         <h3 className="font-bold">{benefit.title}</h3>
                         <p className="text-gray-400">{benefit.description}</p>
@@ -345,7 +345,7 @@ export default function VisitorManagementLanding() {
                   ))}
                 </ul>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-                  <Button className="bg-[#e2000aff] hover:bg-[#c20009] text-white" size="lg" asChild>
+                  <Button className="bg-[#ff4539ff] hover:bg-[#ff4539ff]/90 text-white" size="lg" asChild>
                     <Link href="#trial">Start Free Trial</Link>
                   </Button>
                 </div>
@@ -368,7 +368,7 @@ export default function VisitorManagementLanding() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-[#00B2E3]/10 px-3 py-1 text-sm text-[#00B2E3]">
+                <div className="inline-block rounded-lg bg-[#ff4539ff]/10 px-3 py-1 text-sm text-[#ff4539ff]">
                   Testimonials
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Trusted by Leading Properties</h2>
@@ -386,8 +386,8 @@ export default function VisitorManagementLanding() {
                   <div className="space-y-4">
                     <p className="text-gray-400 italic">"{testimonial.quote}"</p>
                     <div className="flex items-center gap-4">
-                      <div className="h-10 w-10 rounded-full bg-[#00B2E3]/20 flex items-center justify-center">
-                        <Users className="h-5 w-5 text-[#00B2E3]" />
+                      <div className="h-10 w-10 rounded-full bg-[#ff4539ff]/20 flex items-center justify-center">
+                        <Users className="h-5 w-5 text-[#ff4539ff]" />
                       </div>
                       <div>
                         <h3 className="font-bold">{testimonial.name}</h3>
@@ -402,7 +402,7 @@ export default function VisitorManagementLanding() {
         </section>
 
         {/* CTA Section */}
-        <section id="trial" className="w-full py-12 md:py-24 lg:py-32 bg-[#e2000aff] text-white">
+        <section id="trial" className="w-full py-12 md:py-24 lg:py-32 bg-[#ff4539ff] text-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
